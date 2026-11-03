@@ -17,16 +17,20 @@
 
 | 始動 | レシピ |
 | --- | --- |
+| `5LP[PC]` / `2LP[PC]` | [4F確反](#route-punish-4f) |
+| `5LK[PC]` | [5F確反：中ライズ / ODフレア / DRC回収](#route-punish-5f) |
 | `2LK` | [小技](#route-close) / [SA2経由](combos/sa2.md#sa2-light) |
 | `2LP[CH]` | [5MP~MKへつなぐ型](#route-close) |
-| `2MP` | [通常ヒット](#route-close) / [CH](#anti-dr-combo) / [DRC](#route-drc) |
-| `5MP~MK` | [通常ヒット](#route-close) / [開始2S](#route-enhanced) / [端・開始1S](#route-corner-loop) / [SA2経由](combos/sa2.md#from-hit) |
+| `2MP` | [通常ヒット](#route-close) / [CH](#anti-dr-combo) / [PC・7F確反](#route-punish-7f) / [DRC](#route-drc) |
+| `5MP~MK` | [通常ヒット](#route-close) / [PC・6F確反](#route-punish-6f) / [開始2S](#route-enhanced) / [端・開始1S](#route-corner-loop) / [SA2経由](combos/sa2.md#from-hit) |
 | `5MK` | [通常ヒット](#route-mid) / [DRC](#route-drc) |
 | `2HP` | [通常ヒット](#route-mid) |
 | `2MK` | [DRC](#route-drc) |
 | `DR > 5HK` | [生DR始動](#route-dr5hk) |
 | `5MK[PC]` / `5HK[PC]` | [投げ空振りへの反撃](#route-shimmy) |
-| `2HP[PC]` / `5HP[PC]` | [無敵技ガード後の反撃](#route-punish) |
+| `4MK[PC]` | [9F・投げ空振りへの反撃](#route-shimmy-4mk) |
+| `2HP[PC]` | [12F確反：回収 / 火力 / SA3](#route-punish) |
+| `5HP[PC]` | [12F・遠めのPC反撃](#route-punish-5hp) |
 | `214214MP` / `214214HP` | [SA2発動からの手順](combos/sa2.md) |
 
 <a id="purpose-index"></a>
@@ -35,7 +39,7 @@
 
 | 得たいもの | 見るところ |
 | --- | --- |
-| Sを回収する | [DRCの回収型](#route-drc) / [5MK[PC]](#route-shimmy) / [2HP・5HP[PC]](#route-punish) / [端のS回収](#route-corner-loop) / [SA2回収型](combos/sa2.md#stock-recovery) |
+| Sを回収する | [5LK[PC]・DRC型](#route-punish-5f) / [DRCの回収型](#route-drc) / [5MK[PC]](#route-shimmy) / [2HP[PC]](#route-punish) / [5HP[PC]](#route-punish-5hp) / [端のS回収](#route-corner-loop) / [SA2回収型](combos/sa2.md#stock-recovery) |
 | 体力ダメージを取る | [PC反撃の火力型・236236P締め](#route-punish) / [SA2の火力比較](combos/sa2.md#damage) |
 | 相手と位置を入れ替える | [SA2の位置入れ替え](combos/sa2.md#position-swap) |
 | 相手のDゲージを削る | [SA2のDI締め](combos/sa2.md#drive-drain) |
@@ -121,22 +125,115 @@
 **相手の生DRを止めただけで必ずCHになるわけではない。**
 [迎撃の選び方](neutral.md#anti-rush) / [締め後](okizeme.md#after-ender)
 
+<a id="route-punish-fast"></a>
+
+### 4〜7Fの確反：小技・中技から取る
+
+**2HPが間に合わない隙にも、発生に合った始動を用意する。** 各技の発生と届く距離から[反撃を選ぶ](punish.md#by-window)。以下は初段PCを取るルートで、通常ヒット時のダメージとは分ける。
+
+<a id="route-punish-4f"></a>
+
+#### 4F：5LP / 2LP
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `5LP[PC] > 4MK~HP` | 未実測 | D0、S消費0 | PC後に4MKが届く距離。リーチの長いTCへつなぐ |
+| `2LP[PC] > 2LP:236MK` | 未実測 | D0、S消費0 | 2発目の2LPが届く近距離。中ライズ締め |
+
+5LPのPC→4MK追撃は[めいの調査](https://note.com/maytan0412/n/ne756d622e2f0)、4MK~HPは同記事と[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)の基本TCを参照。
+2LP側は[ドスの通常ヒット用2LP×2ルート](https://note.com/dos236236/n/nd3f3300416b7)を初段PCで使う形。PCで目押し先を増やしたレシピとは区別し、通常ヒット掲載値をPCダメージに転記しない。
+
+<a id="route-punish-5f"></a>
+
+#### 5F：5LK
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `5LK[PC]:236MK` | 1,320 | D0、S消費0 | 5F確反を中ライズで締める |
+| `5LK[PC]:OD.214P[S消費1] > 6KKK` | 2,040 | D2、開始1S・消費1S | 前方サンバニッシュ締め |
+| `5LK[PC]:OD.214P[S消費2] > 2KKK > 236MK` | 2,940 | D2、開始2S以上・消費2S | 上方→中ライズ |
+| `5LK[PC]:DRC > 5MK:236HK > j.214LP` | 1,603 | D3、S+1 | DでS回収。DR後の5MKが届くこと |
+| `5LK[PC]:DRC > 5MK:236HK > j.214MP` | 1,981 | D3、S消費0 | 同じ始動の火力型 |
+
+最初の3行は[ドスの5F確反](https://note.com/dos236236/n/nd3f3300416b7)、DRC型は[かくぶろの弱攻撃始動](https://takukakugamer.com/sf6-ingrid-combo/)の掲載値。ドスの記事は2026-06-08までの更新で、5LK調整後の再実測値としては扱わない。
+ODフレアは所持Sに応じて自動消費する。開始1Sの型を2S以上所持時に消費1Sのまま使えるとはしない。
+
+<a id="route-punish-6f"></a>
+
+#### 6F：5MP
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `5MP[PC]~MK:236MK` | 未実測 | D0、S消費0 | Dリバーサルへの反撃例。TC→中ライズ |
+| `5MP[PC]~MK:214MP` | 未実測 | D0、S消費0 | TC→中フレア締め |
+
+[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)はTC→中ライズをDリバーサルへの反撃として紹介している。中ライズ・中フレアの通常ヒット掲載値を、初段PCの値として流用しない。
+
+**開始2S以上・SA3で伸ばす公開例：** TCを先に挟まず、5MPのPCからODフレアへ進む。
+
+```text
+5MP[PC]:OD.214P[S消費2] > 2KKK > DR
+> 5MP~MK:DRC > 5HK[2段目]:236236P
+```
+
+D6、S2消費、SAゲージ3本。SA3強度は未特定。同記事の掲載値5,916で、現行版の再実測値ではない。
+
+<a id="route-punish-7f"></a>
+
+#### 7F：2MP
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `2MP[PC] > 4MK~HP` | 未実測 | D0、S消費0 | 4MKが届く距離。しゃがみ姿勢から投げ空振りを取る候補 |
+
+[めいのシミー追撃候補](https://note.com/maytan0412/n/ne756d622e2f0)を参照。2MPが当たっても、先端では4MKが届くとは限らない。DRCを使って回収する場合は[2MP始動](#route-drc)も比較する。
+
 <a id="route-shimmy"></a>
 
-### シミー：投げ空振りへのPC反撃
+### 8〜9FのPC反撃：シミー・確定反撃
+
+**投げを空振らせた後、またはガード後の硬直に届く始動を選ぶ。** 反応に使った時間を含めた選び方は[シミーの手順](punish.md#shimmy)。7Fの2MP始動は[上の表](#route-punish-7f)も参照。
+
+<a id="route-shimmy-5mk"></a>
+
+#### 8F：5MK
 
 | 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
 | --- | ---: | --- | --- |
 | `5MK[PC]:236HK > j.214LP` | 未実測 | D0、S+1 | S回収型。先端接続は未確認 |
 | `5MK[PC]:236HK > j.214MP` | 未実測 | D0、S消費0 | 火力型。先端接続・高度を確認 |
 | `5MK[PC]:214MP` | 未実測 | D0、S消費0 | 強ライズが届かない場合の候補 |
-| `5HK[PC] > 5MP~MK:236MK` | 2,840 | D0、S消費0 | 後続5MPの距離条件あり |
 
-`5MK[PC]`から強ライズへの接続は2026-08-03調整後の情報。5MK始動の約2,140 / 2,770は他始動からの推算なので採用しない。技の届く距離と確反猶予を見て[5MK・5HKを選ぶ](punish.md#shimmy)。成立後は[締め別起き攻め](okizeme.md#after-ender)へ。
+`5MK[PC]`から強ライズへの接続は[西瓜Changの2026-08-04追記](https://note.com/nishiuri9235/n/n0efb730fe4eb)を参照。同じ記事に、当たり方によって強ライズがつながらないという記述がある。5MKの届く距離と、強ライズまでつながる距離を分ける。
+5MK始動の約2,140 / 2,770は他始動からの推算なので採用しない。
+
+<a id="route-shimmy-5hk"></a>
+
+#### 9F：5HK
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `5HK[PC] > 5MP~MK:236MK` | 2,840 | D0、S消費0 | 5MPが届く距離。まず覚える中ライズ型 |
+| `5HK[PC] > 5MK:OD.214P[S消費2] > 2KKK > 236MK` | 4,240 | D2、開始・消費2S | 5MKも届く距離 |
+| `5HK[PC] > 5MK:236236P` | 4,860 | D0、S消費0、SA3 | PC・5MKが届く距離。SA3強度は未特定 |
+
+2,840と4,240は[ドス](https://note.com/dos236236/n/nd3f3300416b7)、4,860は[めい](https://note.com/maytan0412/n/ne756d622e2f0)の掲載値。いずれも調整前の公開値で、現行版の再実測値ではない。5HKは通常必殺技キャンセル不可なので、5MPや5MKへの目押しを挟む。
+
+<a id="route-shimmy-4mk"></a>
+
+#### 9F：4MK
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 条件・目的 |
+| --- | ---: | --- | --- |
+| `4MK[PC] > 5MK:236MK` | 未実測 | D0、S消費0 | 4MKのPC後、5MKが届く距離 |
+
+[かくぶろのシミー用レシピ](https://takukakugamer.com/sf6-ingrid-combo/)を参照。`4MK~HP`のTCとは分岐が違う。こちらはPCを取ってから5MKへ目押しする型。
+
+各ルート成立後は[締め別起き攻め](okizeme.md#after-ender)へ。
 
 <a id="route-punish"></a>
 
-### 無敵技ガード：2HP[PC]など
+### 12F確反：2HP[PC]
 
 **2HPを使う条件：12F以上の確反猶予があり、届くこと。** S回収・火力・リーサルを比べて選ぶ。[反撃の判断](punish.md#reversal)
 
@@ -144,9 +241,8 @@
 | --- | ---: | --- | --- |
 | `2HP[PC]:236HK > j.214LP` | 2,260 | D0、S+1 | S回収型 |
 | `2HP[PC]:236HK > j.214MP` | 2,890 | D0、S消費0 | 火力型。弱版より+630 |
-| `5HP[PC] > DR > 2HP:236HK > j.214LP` | 2,391 | D1、S+1 | 5HPからDRでつなぐ型 |
-| `5HP[PC] > DR > 2HP:236HK > j.214MP` | 2,769 | D1、S消費0 | 同始動の火力型 |
-| `2HP[PC]:236HK > j.OD.214P > 236MK` | 3,925 / 4,180 | D2、開始・消費S1 / S2 | 旧版参考 |
+| `2HP[PC]:236HK > j.OD.214P[S消費1] > 236MK` | 3,925 | D2、開始1S・消費1S | 旧版参考 |
+| `2HP[PC]:236HK > j.OD.214P[S消費2] > 236MK` | 4,180 | D2、開始2S以上・消費2S | 旧版参考 |
 | `2HP[PC]:236HK > dl.j.MP > 236236P` | 5,080 | SA3のみ | 低めj.MP、強度未特定 |
 
 `236236P`は元のSA3表記をコマンドに直したもの。元資料のボタン強度は未特定で、強度共通と確認した表記ではない。
@@ -154,6 +250,20 @@
 **OD型3,925 / 4,180は調整前からの公開値。2026-08-03調整後の再実測は未確認。**
 
 弱空フレアはS1回収、中空フレアは火力と長いダウン時間を取る。[弱・中空フレア後の行動](okizeme.md#after-ender)で、再接近するか地上回収するかを選ぶ。`236236P`締め後は別の状況として扱う。
+
+<a id="route-punish-5hp"></a>
+
+### 12F・遠め：5HP[PC]
+
+**5HPが届き、12F以上残る場合の別始動。** 通常必殺技キャンセルはできない。PCの特殊のけぞりから6HPか生DRへ進む。
+
+| 完全入力 | 参考ダメージ | 消費・回収 | 目的・条件 |
+| --- | ---: | --- | --- |
+| `5HP[PC] > 6HP:j.214MP` | 2,430 | D0、S消費0 | Dを使わない型。6HPまで届くこと |
+| `5HP[PC] > DR > 2HP:236HK > j.214LP` | 2,391 | D1、S+1 | 生DRで接近してSを回収 |
+| `5HP[PC] > DR > 2HP:236HK > j.214MP` | 2,769 | D1、S消費0 | 同始動の火力型 |
+
+2,430と2,391は[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)、2,769は[ドス](https://note.com/dos236236/n/nd3f3300416b7)の掲載例。始動の5HPだけでなく、後続の6HP・DR後2HPも届く距離を確認する。成立後は[締め別の行動](okizeme.md#after-ender)へ。
 
 <a id="stock-and-position"></a>
 
@@ -218,6 +328,11 @@ BO・DIスタンは[D削り・端攻め案](strategies/pressure-and-corner.md#wi
 
 ## 参照・数値の出どころ
 
+PC反撃の追加調査：2026-11-04。原文の技名を本ノートのコマンド表記へ整理した。公開レシピの採録で、ゲーム内で再実測した結果ではない。
+
+- [ドス：コンボ・起き攻めまとめ](https://note.com/dos236236/n/nd3f3300416b7) — 2026-05-29公開、本文の最終更新記載は06-08。5F確反・5HK[PC]・2HP[PC]等。
+- [めい：週末までに調べたイングリッド](https://note.com/maytan0412/n/ne756d622e2f0) — 2026-06-01。5LP[PC]→4MK、2MP[PC]→4MK~HP、5HK[PC]等。
+- [西瓜Chang：地上戦の技の振り方](https://note.com/nishiuri9235/n/n0efb730fe4eb) — 2026-08-04・08-12追記を参照。5MK[PC]→強ライズの変更と距離条件。
 - [SF6 Lab：コンボ・起き攻め](https://sf6-lab.net/fighters/ingrid/combo) — 2026-08-03調整対応の公開攻略。締め別Fやセットプレイの参照元。
 - [かくぶろ：ダメージ付きコンボ](https://takukakugamer.com/sf6-ingrid-combo/) — 2HP[PC]・5HP[PC]・SA3型等の公開値。
 - [くそまゆげ：フィジカル・イングリッド論](https://note.com/kusomayuge/n/n79bb407272dc)

@@ -114,6 +114,17 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 
 ## その他の入力
 
+<a id="glow-touch"></a>
+
+### 4MK / 4MK~HP：グロータッチ
+
+**4MKは発生9F。後ろ入力から出せる反撃・PC追撃の候補。** 5MKは発生8Fなので、後ろ歩きからMKを押すときは使う技を区別する。
+
+- `4MK~HP`：HP派生のTC。5LP[PC]・2MP[PC]からつなぐ[小さい隙への反撃](combos.md#route-punish-fast)にも使う。
+- `4MK[PC] > 5MK`：HP派生を使わず、PC後に5MKへ目押しする[別ルート](combos.md#route-shimmy-4mk)。
+
+9Fと技の性質は[西瓜Changの調査](https://note.com/nishiuri9235/n/n0efb730fe4eb)、追撃は[めい](https://note.com/maytan0412/n/ne756d622e2f0)と[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)を参照。始動の4MKと、後続5MKやHP派生が届く距離はそれぞれ確認する。
+
 ### サンバニッシュ
 
 - `4KKK`：後方サンバニッシュ（逃げ移動）
