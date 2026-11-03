@@ -88,6 +88,15 @@
 
 **CH・最速・届く距離なら`2MP > 5MK`が連続ヒット。** 5MKは発生8F。通常ヒット+6Fではつながらず、DRを見たという理由だけでCHにもならない。[完全コンボ](combos.md#anti-dr-combo)
 
+```mermaid
+flowchart TD
+    intercept["2MPで生DRを迎撃"] --> result{"ヒット種別"}
+    result -->|CH・+8F| counter["最速・届く距離なら<br/>5MKにつなぐ"]
+    result -->|通常ヒット・+6F| normal["5MKへの目押しは不可<br/>通常ヒット用のルートを選ぶ"]
+```
+
+通常ヒット側は[近距離コンボ](combos.md#route-close)へ。ガード・空振りはヒット用の分岐に含めない。
+
 5LKは2F速く、全体動作も短い。反応が遅れる場面や速さが必要な場面を補う。2MPの判定の強さは使用感に基づく仮説で、相手ごとの判定勝ちを保証するものではない。
 
 <a id="priorities"></a>
