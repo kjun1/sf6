@@ -68,6 +68,20 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 - `OD.236P`は2D消費。有利を作る選択肢だが、自分のD残量を見る。
 - 端の投げ後は[弾の持続重ね](okizeme.md#throw-projectile)を参照。
 
+<a id="od-sunshoot-input"></a>
+
+#### ODサンシュート：同時押しの組み合わせ
+
+| 版 | 入力表記 | 同時押し |
+| --- | --- | --- |
+| OD弱 | `OD.236P[弱・LP+MP]` | LP+MP |
+| OD中 | `OD.236P[中・LP+HP]` | LP+HP |
+| OD強 | `OD.236P[強・MP+HP]` | MP+HP |
+
+出典：[イングリッド研究所の必殺技解説](https://www.sf6-ingrid-laboratory.tech/special.html)。
+いずれも2D消費。弾の版を固定したいセットプレイでは、使う2ボタンまで指定する。
+[端の中ライズ後のDR弾重ね](okizeme.md#rise-dr-projectile)は通常弱・OD弱を区別する。
+
 <a id="sunflare"></a>
 
 ### 214P：サンフレア／214LPによるS回収
@@ -113,6 +127,18 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 <a id="other-inputs"></a>
 
 ## その他の入力
+
+<a id="air-followups"></a>
+
+### 4HP~HP / j.HK~HK：対空からの追撃に使うTC
+
+- `4HP~HP`：ルミナスアッパー。1段目は14Fで、対空ヒット後に追撃する公開例がある。
+- `j.HK~HK`：サテライトリープ。空対空から2段目を遅らせ、着地後に拾う型がある。
+
+発生と4HPの用途は[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)、
+空中TCの遅らせは[ドス](https://note.com/dos236236/n/nd3f3300416b7)を参照。
+完全入力・高さ条件は[空中の接触別コンボ](combos/air.md#anti-air)へ。
+弱ライズの対空無敵と、これらのTCが間に合うことは別の判断になる。
 
 <a id="glow-touch"></a>
 

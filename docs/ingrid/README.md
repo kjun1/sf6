@@ -42,6 +42,8 @@
 
 各戦略で利用する場面別の技術。どの行動を優先するか、どの頻度で使うかは[戦略](strategy.md)で考える。
 
+攻め・守り・練習の共通の考え方は[SF6共通基礎](../fundamentals.md)から読む。
+
 <a id="gameplay-flow"></a>
 
 ### 局面のつながり
@@ -79,6 +81,7 @@ flowchart TD
 
 ### 守り・反撃
 
+- 防御の相性と遅らせ投げ抜けの考え方 → [共通基礎の守り](../fundamentals.md#defense)。
 - 接近・飛び・DIへの回答を探す → [共通対策](matchups/README.md#common)。
 - 無敵技などをガードして反撃を選ぶ → [確定反撃](punish.md#reversal)。
 
@@ -99,6 +102,9 @@ flowchart TD
 | --- | --- |
 | [コンボ](combos.md) | 始動・ヒット条件・位置から選ぶ完全入力、ダメージ、消費 |
 | [214214P・SA2コンボ](combos/sa2.md) | 開始S・消費S・目的別の長いレシピ。ガード連係と起き攻めへ接続 |
+| [DI・壁やられ・BOスタン](combos/impact.md) | DIの結果と開始Sを分けた追撃 |
+| [飛び込み・対空・空中ヒット](combos/air.md) | 着地後のコンボ、TC対空、強弾を拾う型 |
+| [S火力・SA締め](combos/finishers.md) | 2HPのSA1、小技のSA3、開始2Sの火力型 |
 | [技データ](moves.md) | 発生、硬直差、キャンセル、必殺技・SAの入力と性質 |
 | [共通記法](../notation.md) | コマンド、強度、ホールド段階、リソースの読み方 |
 

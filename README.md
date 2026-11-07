@@ -10,6 +10,7 @@
 
 ## いま見たいもの
 
+- **共通の考え方から読む** → [勝ち筋・立ち回り・攻めと守り・練習](docs/fundamentals.md)
 - **勝ち筋を比較する** → [イングリッドの戦略仮説](docs/ingrid/strategy.md)
 - **対戦前に見返す** → [イングリッドの早見表](docs/ingrid/README.md#quick-reference)
 - **攻め方を確認する** → [接触後の攻め・起き攻め](docs/ingrid/README.md#offense)

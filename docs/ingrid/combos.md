@@ -5,6 +5,9 @@
 [起き攻め](okizeme.md) · [技データ](moves.md) · [214214P・SA2](combos/sa2.md)
 · [記法](../notation.md)
 
+[DI・壁・スタン](combos/impact.md) · [飛び込み・対空・空中ヒット](combos/air.md)
+· [S火力・SA締め](combos/finishers.md)
+
 **始動と目的を、それぞれの索引から探す。** 同じルートを両方から参照できる。
 本文では同じ始動の回収型・火力型を隣に並べ、位置・ヒット条件・使えるゲージで絞る。
 
@@ -23,15 +26,21 @@
 | `2LP[CH]` | [5MP~MKへつなぐ型](#route-close) |
 | `2MP` | [通常ヒット](#route-close) / [CH](#anti-dr-combo) / [PC・7F確反](#route-punish-7f) / [DRC](#route-drc) |
 | `5MP~MK` | [通常ヒット](#route-close) / [PC・6F確反](#route-punish-6f) / [開始2S](#route-enhanced) / [端・開始1S](#route-corner-loop) / [SA2経由](combos/sa2.md#from-hit) |
-| `5MK` | [通常ヒット](#route-mid) / [DRC](#route-drc) |
-| `2HP` | [通常ヒット](#route-mid) |
+| `5MK` | [通常ヒット](#route-mid) / [CHからTC](#route-5mk-ch) / [DRC](#route-drc) |
+| `2HP` | [通常ヒット](#route-mid) / [SA1・SA3へ](combos/finishers.md#normal-sa) |
 | `2MK` | [DRC](#route-drc) |
 | `DR > 5HK` | [生DR始動](#route-dr5hk) |
 | `5MK[PC]` / `5HK[PC]` | [投げ空振りへの反撃](#route-shimmy) |
 | `4MK[PC]` | [9F・投げ空振りへの反撃](#route-shimmy-4mk) |
 | `2HP[PC]` | [12F確反：回収 / 火力 / SA3](#route-punish) |
 | `5HP[PC]` | [12F・遠めのPC反撃](#route-punish-5hp) |
+| `6HP` | [開始2S・OD空フレアから追撃](combos/finishers.md#stock-two) |
+| `j.HP` / `j.MK` / `j.LK` | [着地後の地上コンボ](combos/air.md#jump-in) |
+| `4HP~HP` / `j.HK~HK` | [対空・空対空の追撃](combos/air.md#anti-air) |
+| `236HP[Air Hit]` | [生DRからの追撃](combos/air.md#projectile-air) |
+| `DI[PC]` / DI壁やられ / BOスタン | [結果別のルート](combos/impact.md) |
 | `214214MP` / `214214HP` | [SA2発動からの手順](combos/sa2.md) |
+| `214214LP` | [弱発動→PC後ろ投げ](combos/sa2.md#sa2-weak-throw) |
 
 <a id="purpose-index"></a>
 
@@ -40,10 +49,11 @@
 | 得たいもの | 見るところ |
 | --- | --- |
 | Sを回収する | [5LK[PC]・DRC型](#route-punish-5f) / [DRCの回収型](#route-drc) / [5MK[PC]](#route-shimmy) / [2HP[PC]](#route-punish) / [5HP[PC]](#route-punish-5hp) / [端のS回収](#route-corner-loop) / [SA2回収型](combos/sa2.md#stock-recovery) |
-| 体力ダメージを取る | [PC反撃の火力型・236236P締め](#route-punish) / [SA2の火力比較](combos/sa2.md#damage) |
+| 体力ダメージを取る | [S火力・SA1 / SA3](combos/finishers.md) / [PC反撃の火力型](#route-punish) / [SA2の火力比較](combos/sa2.md#damage) |
 | 相手と位置を入れ替える | [SA2の位置入れ替え](combos/sa2.md#position-swap) |
 | 相手のDゲージを削る | [SA2のDI締め](combos/sa2.md#drive-drain) |
 | 次の起き攻めを作る | [中ライズ締め](#route-close) / [生DR始動](#route-dr5hk) / [端の回収ループ](#route-corner-loop) / [締め後の操作](okizeme.md#after-ender) |
+| DIや対空を通した後に取りこぼさない | [DIの結果別](combos/impact.md) / [空中の接触別](combos/air.md) |
 
 <a id="notation"></a>
 入力は[共通記法](../notation.md)に従う。`D`はコンボ全体の消費本数。Sは開始必要数・消費・回収を区別する。**ダメージは既存資料・過去メモの参考値**で、現行版で全件を再実測した値ではない。不明な値は「未実測」とする。
@@ -124,6 +134,21 @@
 `2MP`は通常ヒット+6F、CHで+8F。発生8Fの`5MK`につながるのはCH時。
 **相手の生DRを止めただけで必ずCHになるわけではない。**
 [迎撃の選び方](neutral.md#anti-rush) / [締め後](okizeme.md#after-ender)
+
+<a id="route-5mk-ch"></a>
+
+### 5MKカウンター：5MPのTCへつなぐ
+
+| 完全入力 | 動画の表示値 | 消費・回収 | 条件 |
+| --- | ---: | --- | --- |
+| `5MK[CH] > 5MP~MK:236MK` | 2,720 | D0、S消費0 | CH・後続5MPが届く距離 |
+
+出典：[absolute ego 湯加減・2026-11-07](https://x.com/chocosynthesize/status/2118748691695915421)。
+投稿は端のDR弱弾ガード後+5Fから、5MKでしゃがみ4F暴れを潰す例。
+5MKのCHで+6Fを取り、6Fの5MPが届けばTCにつなぐ。
+2,720は添付動画の当該コンボの表示値で、手元での再実測値ではない。
+DR弱弾による準備の1Dは表のコンボ消費に含めない。
+[入口の条件](pressure.md#rush-projectile-plus5)
 
 <a id="route-punish-fast"></a>
 
@@ -280,6 +305,9 @@ D6、S2消費、SAゲージ3本。SA3強度は未特定。同記事の掲載値5
 
 **通常版`214HP > 2KKK`を一般的な中央ルートとして扱わない。** 通常版とOD版の追撃を区別する。[フレアのS別性能](moves.md#sunflare)
 
+2Sを当てる入口は、[6HP→OD空フレア](combos/finishers.md#stock-two)も参照。
+同じ2S消費でも、通常技のヒット、空中からの接触、ガード後の圧力を分けて選ぶ。
+
 <a id="route-corner-loop"></a>
 
 ### 画面端：1Sを使って回収へ戻る
@@ -307,19 +335,20 @@ D0。コンボでS1消費→ダウン後にS1回収。回収後約+4Fを狙う�
 
 <a id="route-stun"></a>
 
-## まだ薄い・未収録の場面
+## 場面別の収録と、さらに調べること
 
-この一覧は知っているルートを整理したもの。次に増やすなら、同じ用途の本数より**使える場面の穴**を優先する。
+同じ用途の本数より**使える場面の穴**を優先して調べる。
+公開レシピを追加した場面と、残る条件を並べる。参照先には完全入力・消費・出典を置く。
 
-| 場面 | 現在足りないもの |
-| --- | --- |
-| S蓄積からの大火力 | 当てる始動ごとのS別・D/SA別ルートと、消費後の状況 |
-| DIクリーンヒット・壁やられ | 状況別の基本ルート |
-| 画面端BO・DIスタン | 開始S・使えるSA・相手残体力に応じたルート |
-| 飛び込み・めくり | 地上通常ヒットへの接続条件 |
-| 対空・空中ヒット | 当たった技と高度別の追撃 |
-| SA1・リーサル | ゲージ別の締め比較 |
-| SA2の追加条件 | 弱入力・投げ後・BO相手の体力削り・現行版の再実測 |
+| 場面 | 引けるルート | さらに調べる条件 |
+| --- | --- | --- |
+| S蓄積からの大火力 | [開始2Sの火力型](combos/finishers.md#stock-two) | 開始3〜4S、消費後に維持できる位置・S |
+| DIクリーンヒット・壁やられ | [膝崩れと壁の基本型](combos/impact.md#clean-hit) | キャラ・拾う高さ、調整後の合計値 |
+| 画面端BO・DIスタン | [開始0S / 1Sの型](combos/impact.md#stun) | 開始2S以上の後半、相手残体力とSA別 |
+| 飛び込み・めくり | [j.HP / j.MK / j.LK](combos/air.md#jump-in) | 低い接触・先端・裏での安定する距離 |
+| 対空・空中ヒット | [対空・空対空](combos/air.md#anti-air) / [強弾](combos/air.md#projectile-air) | 高度別の追撃、4HP型の出典間ダメージ差 |
+| SA1・リーサル | [2HPのSA1と小技のSA3](combos/finishers.md) | 小技の低D型、CA、相手残体力別の選択 |
+| SA2の追加条件 | [弱入力・PC後ろ投げ](combos/sa2.md#sa2-weak-throw) / [運び型](combos/sa2.md#sa2-hk-carry) | 通常投げ、BO相手への体力削り、現行版の再実測 |
 
 BO・DIスタンは[D削り・端攻め案](strategies/pressure-and-corner.md#win-plan)で狙う状況だが、単一の「4割確定ルート」は固定しない。`5MK[PC]`の先端接続・総ダメージ、弾ヒットから`2HK`の合計、既存ストック消費型の調整後ダメージも不明点として残す。
 
@@ -328,7 +357,9 @@ BO・DIスタンは[D削り・端攻め案](strategies/pressure-and-corner.md#wi
 
 ## 参照・数値の出どころ
 
-PC反撃の追加調査：2026-11-04。原文の技名を本ノートのコマンド表記へ整理した。公開レシピの採録で、ゲーム内で再実測した結果ではない。
+PC反撃・場面別ルートの追加調査：2026-11-04。
+原文の技名を本ノートのコマンド表記へ整理した。公開レシピの採録で、ゲーム内で再実測した結果ではない。
+DI・空中・SA締めの出典と、値が一致しない条件は各専用ページへ記す。
 
 - [ドス：コンボ・起き攻めまとめ](https://note.com/dos236236/n/nd3f3300416b7) — 2026-05-29公開、本文の最終更新記載は06-08。5F確反・5HK[PC]・2HP[PC]等。
 - [めい：週末までに調べたイングリッド](https://note.com/maytan0412/n/ne756d622e2f0) — 2026-06-01。5LP[PC]→4MK、2MP[PC]→4MK~HP、5HK[PC]等。
