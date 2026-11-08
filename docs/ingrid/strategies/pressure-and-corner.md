@@ -90,9 +90,13 @@ DIが通った後は[膝崩れ・壁やられ・スタン](../combos/impact.md)�
 
 相手の防御傾向に応じて打撃・投げ・シミー等の採用率を変える。具体的な相性は[ガード後の攻め](../pressure.md)、相手の回答への再回答は[共通対策](../matchups/README.md#common)を参照。
 
-## 参照
+<a id="参照"></a>
 
-- [UFD：Ingrid](https://ultimateframedata.com/sf6/ingrid)
-- [SF6 Lab：コンボ・起き攻め](https://sf6-lab.net/en/fighters/ingrid/combo)
+## 出典・参考資料
+
+- [UFD：Ingrid](https://ultimateframedata.com/sf6/ingrid)：
+  フレアの性能・S回収の全体Fなど、リソース運用の前提となる技データ。
+- [SF6 Lab：コンボ・起き攻め](https://sf6-lab.net/en/fighters/ingrid/combo)：
+  コンボ締め後の状況と、端攻めへつなぐセットプレイの参考資料。
 
 初稿2026-10-12、状況別の整理2026-10-24。技データと戦略仮説を区別して扱う。

@@ -42,8 +42,13 @@
 - **DR強K**：ガード後の小技・投げ・シミー・ガードを別々に録画し、防御ごとの勝敗を確認する。
 - **端の起き攻め**：[中ライズ後の空振り2回](../ingrid/okizeme.md#after-ender)や[前投げ後の微歩き中弾](../ingrid/okizeme.md#throw-projectile)まで含めて再現する。
 
-## 参照
+<a id="参照"></a>
 
-- [スト6ラボ：イングリッド](https://sf6-lab.net/fighters/ingrid) — ストック・ODを分ける対策と、起き攻めの再現条件。2026-11-03閲覧。
-- [スト6原典：キャラ対策](https://sf6-genten.com/character/ingrid/category/matchup) — 対策の論点と資料への入口。使用側・相手側の視点を区別して参照。
-- [既存の技データ](../ingrid/moves.md) — 数値は同ページの対象パッチ・参照元に従う。
+## 出典・参考資料
+
+- [スト6ラボ：イングリッド](https://sf6-lab.net/fighters/ingrid)
+  — ストック・ODを分ける対策と、起き攻めの再現条件。2026-11-03閲覧。
+- [スト6原典：キャラ対策](https://sf6-genten.com/character/ingrid/category/matchup)
+  — 対策の論点と資料への入口。使用側・相手側の視点を区別して参照。
+- [既存の技データ](../ingrid/moves.md)
+  — 数値は同ページの対象パッチ・参照元に従う。

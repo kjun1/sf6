@@ -7,8 +7,7 @@
 [通常技](#normals) / [弾・236P](#sunshoot) / [フレア・S回収](#sunflare)
 / [ライズ・236K](#sunrise) / [SA2・214214P](#sun-order) / [その他の入力](#other-inputs)
 
-技データは2026-08-03調整後の[UFD](https://ultimateframedata.com/sf6/ingrid)と
-[SF6 Frame Data Search](https://frame-search.com/?character_name=INGRID&lang=en-us)を参照。
+技データの対象は2026-08-03調整後。
 D削りの単位は**ドライブゲージ1本**。距離の実測値を根拠なしに数値化しない。
 
 <a id="normals"></a>
@@ -78,7 +77,6 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 | OD中 | `OD.236P[中・LP+HP]` | LP+HP |
 | OD強 | `OD.236P[強・MP+HP]` | MP+HP |
 
-出典：[イングリッド研究所の必殺技解説](https://www.sf6-ingrid-laboratory.tech/special.html)。
 いずれも2D消費。弾の版を固定したいセットプレイでは、使う2ボタンまで指定する。
 [端の中ライズ後のDR弾重ね](okizeme.md#rise-dr-projectile)は通常弱・OD弱を区別する。
 
@@ -135,8 +133,6 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 - `4HP~HP`：ルミナスアッパー。1段目は14Fで、対空ヒット後に追撃する公開例がある。
 - `j.HK~HK`：サテライトリープ。空対空から2段目を遅らせ、着地後に拾う型がある。
 
-発生と4HPの用途は[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)、
-空中TCの遅らせは[ドス](https://note.com/dos236236/n/nd3f3300416b7)を参照。
 完全入力・高さ条件は[空中の接触別コンボ](combos/air.md#anti-air)へ。
 弱ライズの対空無敵と、これらのTCが間に合うことは別の判断になる。
 
@@ -149,7 +145,7 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 - `4MK~HP`：HP派生のTC。5LP[PC]・2MP[PC]からつなぐ[小さい隙への反撃](combos.md#route-punish-fast)にも使う。
 - `4MK[PC] > 5MK`：HP派生を使わず、PC後に5MKへ目押しする[別ルート](combos.md#route-shimmy-4mk)。
 
-9Fと技の性質は[西瓜Changの調査](https://note.com/nishiuri9235/n/n0efb730fe4eb)、追撃は[めい](https://note.com/maytan0412/n/ne756d622e2f0)と[かくぶろ](https://takukakugamer.com/sf6-ingrid-combo/)を参照。始動の4MKと、後続5MKやHP派生が届く距離はそれぞれ確認する。
+始動の4MKと、後続5MKやHP派生が届く距離はそれぞれ確認する。
 
 ### サンバニッシュ
 
@@ -203,17 +199,8 @@ DRCは適切なキャンセル可能技から行う。通常技単独のガー�
 - **全体13Fは発動動作の長さ**。弾の発生103 / 68 / 98Fとは別の値。
 - コンボ補正欄は即時補正20%、最低保証40%。単体値をコンボ合計へそのまま足さない。
 
-数値は[Frame Data Search](https://frame-search.com/?character_name=INGRID&lang=en-us)の
-Ver.2.0401.010掲載値を2026-11-03に参照。1S消費のホールド閾値は26F、2S消費は73Fと記載。
-[かくぶろの解説](https://takukakugamer.com/sf6-ingrid-combo/)には2S消費が76Fという表記もあるため、
+1S消費のホールド閾値は掲載値26F、2S消費は73F / 76Fと資料間で差があるため、
 レシピは消費するS数を指定する。
-
-<details>
-<summary>出典のLv表記と照合するとき</summary>
-
-SA2のLv1 / Lv2 / Lv3は、本ノートの消費0S / 消費1S / 消費2Sに対応する。
-
-</details>
 
 <a id="move-to-action"></a>
 
@@ -224,7 +211,33 @@ SA2のLv1 / Lv2 / Lv3は、本ノートの消費0S / 消費1S / 消費2Sに対�
 - **空振り・置き技を見せられる**：通常技を押さず歩いて空振りを誘う。投げの空振りを誘えたら [シミー確反](punish.md#shimmy) を選ぶ。
 - **相手DR**：反応の本命は2MP、発生が必要なら5LK。詳しい状況は [生DRの止め方](neutral.md#anti-rush)。
 
-## 参照
+<a id="参照"></a>
+
+## 出典・参考資料
 
 - [Ultimate Frame Data](https://ultimateframedata.com/sf6/ingrid)
+  — 通常技・必殺技の基礎データ。2026-08-03調整後の値を参照。
 - [SF6 Frame Data Search](https://frame-search.com/?character_name=INGRID&lang=en-us)
+  — 通常技・必殺技の基礎データ。SA2はVer.2.0401.010掲載値を2026-11-03に参照。
+  弾の発生103 / 68 / 98F、全体13F、消費S別ダメージ、補正値、
+  ホールド閾値26F / 73Fの対応元。
+- [イングリッド研究所：必殺技解説](https://www.sf6-ingrid-laboratory.tech/special.html)
+  — ODサンシュートの弱・中・強と同時押しの対応。
+- [かくぶろ：コンボまとめ](https://takukakugamer.com/sf6-ingrid-combo/)
+  — 4HPの発生・対空用途、4MKからの追撃。SA2の2S消費ホールドには76Fの記載があり、
+  Frame Data Searchの73Fと差がある。
+- [ドス：コンボ・起き攻めまとめ](https://note.com/dos236236/n/nd3f3300416b7)
+  — 空中TCの2段目を遅らせる型。
+- [西瓜Chang：地上戦の技の振り方](https://note.com/nishiuri9235/n/n0efb730fe4eb)
+  — 4MKの発生9Fと技の性質。
+- [めい：週末までに調べたイングリッド](https://note.com/maytan0412/n/ne756d622e2f0)
+  — 4MKからの追撃。
+
+<a id="sa2-source-levels"></a>
+
+<details>
+<summary>出典のLv表記と照合するとき</summary>
+
+SA2のLv1 / Lv2 / Lv3は、本ノートの消費0S / 消費1S / 消費2Sに対応する。
+
+</details>
